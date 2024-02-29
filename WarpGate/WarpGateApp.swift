@@ -10,8 +10,12 @@ import SwiftUI
 @main
 struct WarpGateApp: App {
     var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+      MenuBarExtra("UtilityApp", systemImage: "hammer") {
+            AppMenu()
+        }.menuBarExtraStyle(.window)
+        
+        // WindowGroup {
+        //     ContentView()
+        // }
     }
 }
