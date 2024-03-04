@@ -12,7 +12,7 @@ import SwiftUI
 struct WarpGateApp: App {
     var body: some Scene {
       MenuBarExtra {
-            AppMenu()
+            MenuView()
         } label: {
             let image: NSImage = {
                 let ratio = $0.size.height / $0.size.width
@@ -23,7 +23,6 @@ struct WarpGateApp: App {
 
             Image(nsImage: image)
         }
-      .menuBarExtraStyle(.window)
         
         // WindowGroup {
         //     ContentView()

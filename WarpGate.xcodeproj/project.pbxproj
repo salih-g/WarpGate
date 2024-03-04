@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		043E92C02B91E596006349E4 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B9F3672B913F8600D2B3AD /* MenuView.swift */; };
 		044956542B913D3300FD3C71 /* WarpGateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044956532B913D3300FD3C71 /* WarpGateApp.swift */; };
 		044956562B913D3300FD3C71 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044956552B913D3300FD3C71 /* ContentView.swift */; };
 		044956582B913D3400FD3C71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044956572B913D3400FD3C71 /* Assets.xcassets */; };
 		0449565B2B913D3400FD3C71 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0449565A2B913D3400FD3C71 /* Preview Assets.xcassets */; };
-		04B9F3682B913F8600D2B3AD /* AppMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B9F3672B913F8600D2B3AD /* AppMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,7 +21,7 @@
 		044956572B913D3400FD3C71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0449565A2B913D3400FD3C71 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0449565C2B913D3400FD3C71 /* WarpGate.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WarpGate.entitlements; sourceTree = "<group>"; };
-		04B9F3672B913F8600D2B3AD /* AppMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMenu.swift; sourceTree = "<group>"; };
+		04B9F3672B913F8600D2B3AD /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +59,7 @@
 				044956572B913D3400FD3C71 /* Assets.xcassets */,
 				0449565C2B913D3400FD3C71 /* WarpGate.entitlements */,
 				044956592B913D3400FD3C71 /* Preview Content */,
-				04B9F3672B913F8600D2B3AD /* AppMenu.swift */,
+				04B9F3672B913F8600D2B3AD /* MenuView.swift */,
 			);
 			path = WarpGate;
 			sourceTree = "<group>";
@@ -142,8 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04B9F3682B913F8600D2B3AD /* AppMenu.swift in Sources */,
 				044956562B913D3300FD3C71 /* ContentView.swift in Sources */,
+				043E92C02B91E596006349E4 /* MenuView.swift in Sources */,
 				044956542B913D3300FD3C71 /* WarpGateApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
